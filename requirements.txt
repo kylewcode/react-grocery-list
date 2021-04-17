@@ -1,0 +1,20 @@
+v1
+[ ] It should have a place to store items.
+[ ] It should have a way to display items.
+[ ] It should have a way to add items.
+[ ] It should have a way to edit items.
+[ ] It should have a way to delete items.
+v2
+[ ] It should have a way to persist the list.
+[ ] It should have a way to enter quantities for items.
+[ ] It should have a way to mark items as purchased.
+v3
+[ ] It should have a way to reorder the list.
+[ ] It should have user logins.
+v4
+[ ] It should have a place to store vendors.
+[ ] It should have a way to display vendors.
+[ ] It should have a way to add a vendor.
+[ ] It should have a way to delete a vendor.
+[ ] It should have a way to store a vendor and price with an item.
+[ ] It should have a way to display a vendor and price with an item.

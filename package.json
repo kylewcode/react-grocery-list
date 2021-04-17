@@ -1,0 +1,22 @@
+{
+  "name": "react-grocery-list",
+  "version": "1.0.0",
+  "description": "CRUD app for listing grocery items along with pricing for different grocery stores.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kylewcode/react-grocery-list.git"
+  },
+  "author": "Kyle Williams",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kylewcode/react-grocery-list/issues"
+  },
+  "homepage": "https://github.com/kylewcode/react-grocery-list#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
