@@ -16,6 +16,15 @@ const connectDatabase = require('./database');
 //   });
 connectDatabase();
 
+app.use(express.json({ extended: false }));
+app.use('/api/login-success', require('./routes/api/loginSuccess'));
+app.use('/api/view-store', require('./routes/api/viewStore'));
+app.use('/api/view-prices', require('./routes/api/viewPrices'));
+
+app.get('/', (req, res) => {
+  res.send('This is the root route from server.js');
+});
+
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
 });
